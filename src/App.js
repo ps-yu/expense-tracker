@@ -1,14 +1,10 @@
-import React from 'react';
-import './App.css';
-import { Header } from './components/Header';
-
-function App() {
+import ExpenseItem from "./components/ExpenseItem"
+function App(){
   return (
     <div>
-      <Header />
-      Hello world!!
+      <h2>Let's get started!</h2>
+      <ExpenseItem />
     </div>
-  );
+  )
 }
-
 export default App;
