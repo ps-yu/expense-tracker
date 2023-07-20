@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 function App() {
   //Dummy data to be used as a prop for the expeneseItem components
   const expenses = [
@@ -25,8 +26,8 @@ function App() {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
       <div className="expenses">
+        <NewExpense />
         <Expenses expenses={expenses}/>
       </div>
     </div>
