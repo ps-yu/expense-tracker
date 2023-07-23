@@ -1,12 +1,14 @@
 import ExpenseItem from "./ExpenseItem";
 
 function Expenses (props){
+  console.log(props.expenses)
   return (
     <div>
-      <ExpenseItem  expenses = {props.expenses[0]}/>
-      <ExpenseItem  expenses = {props.expenses[1]}/>
-      <ExpenseItem  expenses = {props.expenses[2]}/>
-      <ExpenseItem  expenses = {props.expenses[3]}/>
+      {props.expenses.map(expense => <ExpenseItem 
+       title = {expense.title}
+       amount = {expense.amount}
+       date = {expense.date}
+       />)}
     </div>
   )
 }
