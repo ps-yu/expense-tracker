@@ -44,7 +44,7 @@ const ExpenseForm = (props) => {
     hideForm(false)
     hideButton(true)
   }
-  const [displayForm, hideForm] = useState(false);
+  const [displayForm, hideForm] = useState(false);                                                             
   const [displayButton, hideButton] = useState(true);
   return (
     <div>
