@@ -27,7 +27,3 @@ This is an expense tracker app built with React Hooks and LocalStorage API.
 3. Click on the "Delete" button to delete the expense.
 4. The total expenses will be shown at the bottom of the page.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
